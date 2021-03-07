@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    color: #707070;
+   
+}
+#test-list {
+    object-position: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+#test-list section {
+    margin-bottom: 50px;
+  
+   
+   
+ 
+}
+#test-list section .top-box {
+   
+    background-color: #dfdbd5;
+    width: 263px;
+    height: 103px;
+    position: absolute;
+    z-index: 1;
+}
+#test-list section img {
+    
+    background-color: gray;
+    border-radius: 100%;
+    border: 3px soild #d4d4d4;
+    width: 133px;
+    height: 133px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+  
+    top: 15px;
+    z-index: 5;
+}
+ #line{
+    font-size: 10px !important;
+
+}
+.line{
+    height: 200px;
+   
+}
+#test-list section .bottom-box {
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+    width: 263px;
+   
+    transform: translateY(-50px);
+}
+#test-list section .bottom-box {
+    margin: 0 auto;
+    padding: 0;
+    
+}
+#test-list section .bottom-box p {
+    text-align: center;
+    font-size: 12;
+    line-height: 21px;
+    padding-top: 60px;
+}
+#test-list section .bottom-box .test-details {
+ 
+  font-size: 14px;
+  font-weight: bold;
+    text-align: center;
+    height: 200px;
+    background-color: #d6e0f0;
+    
+}
+#test-list section .bottom-box .test-details span {
+    font-size: 15px;
+    font-weight: 800;
+}
+

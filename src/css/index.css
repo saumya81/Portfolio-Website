@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Teko:wght@300&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+  font-family: 'Lemonada' !important;
+  
+}
+a{
+  color: #d6e0f0 !important;
+}
+h1,h3{
+  color: black;
+}
+#underdark{
+  color: #d6e0f0 !important;
+  font-weight: bolder;
+  margin-top: 20px !important;
+  padding-top:20px;
+}
+.navbar{
+  background-color:#d6e0f0;
+}
+.navbar .a{
+   color: #d6e0f0;
+  font-size:1.3rem;
+  text-transform: capitalize;
+}
+.navbar-brand{
+  font-size:1.9rem !important;
+  color:#d6e0f0 !important;
+}
+.menu_active{
+  font-weight:bold;
+ 
+}
+#common-img{
+  height: 400px;
+  border-radius: 50px;
+  padding-left: 30px;
+}
+.home{
+  margin-top: 100px !important;
+}
+.navbar a:hover{
+  color: black;
+}
+@media(max-width:991px){
+  .navbar-brand{
+    font-size:1.5rem !important; 
+    font-family: 'Dancing Script', cursive!important; }
+    .menu_active{
+      font-weight:bold;
+     
+    } 
+}
+.edu{
+ 
+  font-weight: 700;
+  color: white !important;
+}
+#header h2{
+  color: black;
+  font-size:24px;
+  
+}
+
+#header .btn-get-started{
+  font-weight:500;
+  font-size:16px;
+  letter-spacing:1px;
+  display:inline-block;
+  padding:10px 30px;
+  border-radius:50px;
+  transition:0.5s;
+  color:black !important;
+  border:2px solid black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#header .btn-get-started:hover{
+  background:black;
+  color:white !important;
+ 
+}
+.header-img{
+  text-align:right;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.head{
+
+  background-color:white;
+}
