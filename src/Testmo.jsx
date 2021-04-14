@@ -10,7 +10,7 @@ const Testmo= (props) => {
   <blockquote>{props.line}</blockquote>
   <div class="author">
     <img src={props.imgsrc} alt="sq-sample1"/>
-    <h5>{props.name1} <span> {props.desig}</span></h5>
+    <p id="text"><i>{props.name1} <br></br><span> {props.desig}</span></i></p>
   </div>
 </figure>
 </div>

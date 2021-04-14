@@ -35,13 +35,29 @@ const Services= () => {
 
 </div>
 <div className="my-5">
+       <h1 className="text-center">And Here are my Achievements </h1>
+       <br></br>
+       <br></br>
+    
+      
+
+
+   </div>
+   <div classname="container-fluid-mb-5">
+       <div className="row">
+        <div className="col-10 mx-auto"><center>
+   <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6725690244697612289" height="788" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6702641782125027328" height="788" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+</center>
+</div></div></div>
+
+<div className="my-5">
        <h1 className="text-center">Other Experiences </h1>
        <br></br>
        <br></br>
 
    </div>
 <Otherexp/>
-
 
 
 

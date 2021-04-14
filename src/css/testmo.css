@@ -78,3 +78,8 @@ figure.snip1192 .author h5 span {
 body {
   background-color: #212121;
 }
+#text{
+  color:black;
+  margin-right: 40px;
+  font-size: smaller;
+}
