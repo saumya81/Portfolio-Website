@@ -7,6 +7,7 @@ import Education from "./Education";
 import Myint from './Myint'
 import Hobbies from './data/Hobbies'
 import './css/index.css'
+
 const About= () => {
 
   return(
@@ -23,9 +24,12 @@ const About= () => {
                          <br></br>
                        
     
-    <center><div className='row bg-dark'>
-    <center><h1 id='underdark'>My Education</h1></center> 
-                         <div className="col-10 mx-auto">
+   
+    <center><h1 >My Education</h1></center> 
+    <br></br><br></br><br></br>
+   <center>
+                     <div className='row'>
+                          
                          {
                     EduData.map((val,ind)=>{
                         return<Education
@@ -39,13 +43,13 @@ const About= () => {
 
                         />
                     })
-                }</div>
-                </div></center>
+                }
+            </div>  
+            </center>
                 <br></br><br></br><br></br>
                 <center><h1>My Hobbies</h1></center> 
                        <center> <div className="container-fluid-mb-5 ">
-                         <div className='row'>
-                         <div className="col-8 mx-auto">
+                         
                          {
                     Hobbies.map((val,ind)=>{
                         return<Myint
@@ -57,8 +61,7 @@ const About= () => {
 
                         />
                     })
-                }</div>
-                </div></div></center> 
+                }</div></center> 
     </>
   );
 };

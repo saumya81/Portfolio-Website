@@ -62,16 +62,16 @@ const Contact= () => {
           <form onSubmit={formSubmit}>
           <div class="app-form">
             <div class="app-form-group">
-              <input class="app-form-control" name="name" placeholder="NAME"/>
+              <input class="app-form-control" name="name" placeholder="NAME" required/>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" name="email" placeholder="EMAIL"/>
+              <input class="app-form-control" name="email" placeholder="EMAIL" required/>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" name="contact" placeholder="CONTACT NO"/>
+              <input class="app-form-control" name="contact" placeholder="CONTACT NO" required/>
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" name="message" placeholder="MESSAGE"/>
+              <input class="app-form-control" name="message" placeholder="MESSAGE" required/>
             </div>
             <div class="app-form-group buttons">
             

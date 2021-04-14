@@ -24,15 +24,7 @@ const Card= (props) => {
     <br/>
     {props.description}
     </div>
- 
-  <button>Go to website</button>
-  <footer>
-    <div class="likes">
-      <p><i class='fa fa-heart'></i></p>
-     
-    </div>
-    
-  </footer>
+
 </div>
 </div>         
     </>

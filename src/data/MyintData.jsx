@@ -1,33 +1,41 @@
 
-import flu from "../img/web.png"
-import digi from "../img/code.jpg"
-import kala from "../img/back.png"
-import teach from "../img/teach.png"
+import boot from "../img/boot.png"
+import css from "../img/css.webp"
+import html from "../img/html.webp"
+import js from "../img/js.png"
+import react from "../img/unnamed.png"
+import php from "../img/phpp.png"
+import spring from '../img/spring.jpeg'
+import wordpress from "../img/wordpress.png"
+
+
 
 
 
 const MyintData=[
     {
-        imgsrc1:flu,
-        name2:"Web Development",
-        
+        imgsrc1:html 
     },
     {
-        imgsrc1:kala,
-        name2:"Backend developement",
+        imgsrc1:css
+        
         
     
     },
     {
-        imgsrc1:digi,
-        name2:"Coding ",
-        
+        imgsrc1:js
     },
     {
-        imgsrc1:teach,
-        name2:"Teaching",
-        
-    
+        imgsrc1:react 
+    },
+    {
+        imgsrc1:php 
+    },
+    {
+        imgsrc1:spring 
+    },
+    {
+        imgsrc1:wordpress
     }
     
 

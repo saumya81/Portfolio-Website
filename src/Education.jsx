@@ -1,39 +1,24 @@
 import React from "react";
+import './css/edu.css'
 
 const Education = (props) => {
     return (
         <>
-            <section >
-               
-                <div className="container-fluid nav_bg gy-5 ">
-                    <div className='row '>
-                        <div className="col-10 mx-auto edu">
-
-                            <div class="container " i>
-                                <div class="row">
-                                    <div class="col-sm">
-                                       {props.uni}
-
-
-    </div>
-                                    <div class="col-sm">
-                                    {props.sub}
-                                    <br></br>
-                                    {props.marks}
-    </div>
-                                    <div class="col-sm">
-                                        {props.time}
-    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </section>
+        
+        <div class="col-4 md-3">
+  <div class="card">
+    <h3 class="h-text ht1">{props.sub}</h3>
+    <img src={props.uni} alt="img1" id="eduimg" />
+    <hr/> 
+    <p class="imgtext">
+    {props.marks}
+    <hr/>
+ 
+    {props.time}
+    </p>
+  </div>
+ 
+  </div>
         </>
     );
 };

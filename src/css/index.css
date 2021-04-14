@@ -5,7 +5,7 @@
   padding:0;
   box-sizing:border-box;
   
-  font-family: 'Lemonada' !important;
+
   
 }
 a{
@@ -21,16 +21,16 @@ h1,h3{
   padding-top:20px;
 }
 .navbar{
-  background-color:#d6e0f0;
+  color:#fff;
 }
 .navbar .a{
-   color: #d6e0f0;
+  
   font-size:1.3rem;
   text-transform: capitalize;
 }
 .navbar-brand{
   font-size:1.9rem !important;
-  color:#d6e0f0 !important;
+  
 }
 .menu_active{
   font-weight:bold;
@@ -50,7 +50,7 @@ h1,h3{
 @media(max-width:991px){
   .navbar-brand{
     font-size:1.5rem !important; 
-    font-family: 'Dancing Script', cursive!important; }
+   }
     .menu_active{
       font-weight:bold;
      
@@ -95,4 +95,40 @@ h1,h3{
 .head{
 
   background-color:white;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width:100%;
+  max-width: 22rem;
+  min-height: 14rem;
+  background-color: #fff;
+  border-radius: 0 7rem;
+  box-shadow: 0 -4px 4px #3dccc7, 
+               0 4px 4px #9381ff;
+}
+.image{
+  width:100%;
+  max-width: 22rem;
+  min-height: 14rem;
+  border-radius: 0 7rem;
+}
+.card__title{
+  color: #9381ff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+  padding-left: 14rem;
+}
+p{
+   padding-left: 5rem;
+  padding-bottom: 1rem;
 }

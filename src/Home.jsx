@@ -20,17 +20,17 @@ const Home= () => {
                            
                                                     
                             P.S. : I AM NOT A GEEK " 
-                            imgsrc={mypic} visit="/contact"
+                            imgsrc={mypic} visit="/services"
                             line2="Want to know more about me?"
                             btn="click here buddy"
                             />
                          
                          <br></br>
                        
-                         <div className="container-fluid-mb-5 bg-dark">
-                         <center><h1 id="underdark">My Skills</h1></center> 
+                         <div className="container-fluid-mb-5 ">
+                         <center><h1>My Skills</h1></center> 
                          <div className='row'>
-                         <div className="col-8 mx-auto">
+                         <div className="col-10 mx-auto">
                          {
                     MyintData.map((val,ind)=>{
                         return<Myint
@@ -47,10 +47,9 @@ const Home= () => {
                
                 <br></br>
                 <center><h1>What my co-workers says about me </h1></center> <br></br>
-                         <div className="container-fluid-mb-5 ">
-                         <div className='row'>
-                         <div className="col-8 mx-auto">
-       
+                        
+       <div class='row'>
+      
                 {
                     TestData.map((val,ind)=>{
                         return<Testmo
@@ -64,13 +63,19 @@ const Home= () => {
                         />
                     })
                 }
-                
+             
                 </div>
-</div>
+                      </div>
 
-</div>
-                            </div>
+                          
                             </center>
+                            <div className="container-fluid-mb-5 ">
+                            <center><h1>I hope you visited my insta meme page </h1></center> <br></br>
+                         <div className='row'>
+                         <div className="col-8 mx-auto">
+                          
+<div class="elfsight-app-ecba8db7-8ea5-4575-8a36-4949ddaefb72"></div>
+</div></div></div>
 
                          
 

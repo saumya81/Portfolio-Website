@@ -1,30 +1,17 @@
 import React from "react";
 
-
+import "./css/myint.css"
 
 const Myint= (props) => {
   return(
     <>
   
-  <main>
-  <div id="test-list">
-    <section>
+
+
+  
       
-      <img src={props.imgsrc1} alt="Picture"/>
-      <br/>
-      <div class="bottom-box">
-      
-     
-        <div class="test-details">
-        
-          <br></br> <br></br> <br></br>
-          {props.name2}
-        </div>
-     </div>
-    </section>
-    
-  </div>
-  </main>
+      <img src={props.imgsrc1} id="imgforhobbiesandinterest" alt="Picture"/>
+
 
       </>                     
   );
