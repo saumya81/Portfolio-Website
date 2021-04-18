@@ -36,6 +36,9 @@ const MyintData=[
     },
     {
         imgsrc1:wordpress
+    },
+    {
+        imgsrc1:boot
     }
     
 

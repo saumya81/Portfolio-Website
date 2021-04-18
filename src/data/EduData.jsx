@@ -1,4 +1,4 @@
-import React from "react";
+
 import lpu from '../img/lpu.jpg'
 import dav from '../img/dav.jpeg'
 
