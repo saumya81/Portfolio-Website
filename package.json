@@ -1,6 +1,6 @@
 {
   "name": "sprt",
-  "homepage": "https://saumya81.github.io/portfolio",
+
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "rm -rf node_modules && yarn cache clean && yarn && gh-pages -d build",
+
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
